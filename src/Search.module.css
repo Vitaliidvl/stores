@@ -1,0 +1,30 @@
+
+
+
+
+.search-input{
+        display: flex;
+       
+        align-items: center;
+}
+.search input{
+     
+        margin-left: 10px;
+        padding: 10px;
+        width: 100%;
+        outline: none;
+        border: none;
+        font-size: 20px;
+}
+.search::placeholder {
+    color: rgb(209, 204, 204);
+}
+
+.search img {
+        filter: invert(56%) sepia(8%) saturate(567%) hue-rotate(22deg) brightness(87%) contrast(87%);   
+             width: 30px;
+        height: 30px;
+        
+}
+
+

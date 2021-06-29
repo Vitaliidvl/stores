@@ -1,0 +1,14 @@
+.stores{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* @media (max-width: 1200px)  {
+    .stores{
+        flex-direction:column;
+        flex-basis: 100%;
+
+    }
+} */
+

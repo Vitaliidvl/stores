@@ -1,0 +1,11 @@
+.layout{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+
+
+

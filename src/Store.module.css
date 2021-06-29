@@ -1,0 +1,57 @@
+.store {
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    overflow: hidden;
+    flex: 0 0 calc(33.3333% - 20px);
+    text-align: center;
+    margin: 4px;
+    transition: 0.3s all;
+}
+.store:hover {
+    transition: 0.3s all;
+}
+.store:hover .store-logo img  {
+    transform: scale(1.5);
+    transition: 0.3s all;
+}
+.store-logo {
+    transition: 0.3s all;
+    padding: 40px;
+    border-bottom: 2px solid gray;
+}
+.store-info {
+    padding: 40px ;
+}
+.store img {
+    width: 100%;
+  
+}
+
+.store-brand {
+    text-transform: uppercase;
+}
+
+.heart-icon :hover  {
+    background-image: url('./assets/heart_red.svg');
+}
+
+
+@media (max-width: 1200px)  {
+    .store{
+        flex: 0 0 calc(50% - 20px);
+
+    }
+}
+
+@media (max-width: 800px)  {
+    .store{
+        display: flex;
+        align-items: center;
+        flex: 0 0 calc(150% - 20px);
+        
+
+    }
+    
+  
+}
+
